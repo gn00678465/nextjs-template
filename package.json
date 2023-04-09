@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write \"./**/*.{html,tsx,jsx,ts,js,json,md}\""
+    "format": "prettier --write \"./**/*.{html,tsx,jsx,ts,js,json,md}\"",
+    "test:unit": "vitest"
   },
   "dependencies": {
     "@types/node": "18.15.11",

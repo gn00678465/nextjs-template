@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "lint:lint-staged": "lint-staged",
     "format": "prettier --write \"./**/*.{html,tsx,jsx,ts,js,json,md}\"",
     "prepare": "husky install"
   },
@@ -28,8 +29,9 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-tailwindcss": "^3.11.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.2.1",
     "prettier": "^2.8.7",
-    "prettier-plugin-tailwindcss": "^0.2.7",
-    "husky": "^8.0.0"
+    "prettier-plugin-tailwindcss": "^0.2.7"
   }
 }

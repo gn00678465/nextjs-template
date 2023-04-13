@@ -38,7 +38,6 @@ jobs:
             run_install: true
       - name: Install Dependence
         run: pnpm install --frozen-lockfile
-      - name: Unit test
   
   deploy:
     name: Deploy

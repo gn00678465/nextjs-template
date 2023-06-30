@@ -46,7 +46,7 @@ jobs:
     
     steps:
       - name: Deploy to production
-        uses: bounceapp/render-action@0.6.0
+        uses: Bounceapp/render-action@0.7.0
         with:
           render-token: ${{ secrets.RENDER_TOKEN }}
           service-id: ${{ secrets.SERVICE_ID }}
